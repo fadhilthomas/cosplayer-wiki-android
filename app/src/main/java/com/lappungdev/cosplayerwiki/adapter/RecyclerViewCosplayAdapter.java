@@ -73,6 +73,18 @@ public class RecyclerViewCosplayAdapter extends RecyclerView.Adapter<RecyclerVie
         return cosplayList.size();
     }
 
+    private void passData(int position) {
+        Intent i = new Intent(context, CosplayDetailActivity.class);
+        i.putExtra("cosplayNickname", cosplayList.get(position).getCosplayNickname());
+        i.putExtra("cosplayGender", cosplayList.get(position).getCosplayGender());
+        i.putExtra("cosplayCountry", cosplayList.get(position).getCosplayCountry());
+        i.putExtra("cosplayPhoto", cosplayList.get(position).getCosplayPhoto());
+        i.putExtra("cosplayID", cosplayList.get(position).getCosplayID());
+        i.putExtra("cosplayBirthday", cosplayList.get(position).getCosplayBirthday());
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(i);
+    }
+
     class ViewHolder extends RecyclerView.ViewHolder {
         ImageView ivCosplayPhoto;
         TextView tvCosplayNickname, tvCosplayCountry;
@@ -92,17 +104,5 @@ public class RecyclerViewCosplayAdapter extends RecyclerView.Adapter<RecyclerVie
             btCosplayShare.setOnClickListener(v -> Snackbar.make(MainActivity.rlMain, String.format("Share: %s", cosplayList.get(getAdapterPosition()).getCosplayNickname()), Snackbar.LENGTH_SHORT).show());
             btCosplayFavorite.setOnClickListener(v -> Snackbar.make(MainActivity.rlMain, String.format("Favorite: %s", cosplayList.get(getAdapterPosition()).getCosplayNickname()), Snackbar.LENGTH_SHORT).show());
         }
-    }
-
-    private void passData(int position){
-        Intent i = new Intent(context, CosplayDetailActivity.class);
-        i.putExtra("cosplayNickname", cosplayList.get(position).getCosplayNickname());
-        i.putExtra("cosplayGender", cosplayList.get(position).getCosplayGender());
-        i.putExtra("cosplayCountry", cosplayList.get(position).getCosplayCountry());
-        i.putExtra("cosplayPhoto", cosplayList.get(position).getCosplayPhoto());
-        i.putExtra("cosplayID", cosplayList.get(position).getCosplayID());
-        i.putExtra("cosplayBirthday", cosplayList.get(position).getCosplayBirthday());
-        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        context.startActivity(i);
     }
 }

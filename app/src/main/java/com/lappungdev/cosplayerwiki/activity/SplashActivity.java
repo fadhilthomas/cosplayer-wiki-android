@@ -32,7 +32,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(() -> {
             TransitionManager.beginDelayedTransition(transContainer);
             visibleTitle = !visibleTitle;
-            tvTitle.setVisibility(visibleTitle? View.VISIBLE : View.GONE);
+            tvTitle.setVisibility(visibleTitle ? View.VISIBLE : View.GONE);
         }, 1000);
 
         new Handler().postDelayed(() -> {
