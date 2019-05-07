@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CosplayerWiki</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="nickname">Nickname</string>
+    <string name="gender">Gender</string>
+    <string name="country">Country</string>
+    <string name="birthday">Birthday</string>
+    <string name="cosplay_id">Cosplay ID</string>
+</resources>
