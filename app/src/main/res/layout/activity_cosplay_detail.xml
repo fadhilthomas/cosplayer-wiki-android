@@ -19,7 +19,7 @@
                 android:id="@+id/ivCosplayPhoto"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop" />
 
             <View
                 android:layout_width="match_parent"
@@ -35,12 +35,12 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_weight="2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:text="@string/cosplay_id"
@@ -48,13 +48,13 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:layout_weight="1"
                     android:id="@+id/tvCosplayID"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textColor="@color/colorHitam"
@@ -76,12 +76,12 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_weight="2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:text="@string/nickname"
@@ -89,13 +89,13 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:layout_weight="1"
                     android:id="@+id/tvCosplayNickname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textColor="@color/colorHitam"
@@ -117,12 +117,12 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_weight="2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:text="@string/gender"
@@ -130,13 +130,13 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:layout_weight="1"
                     android:id="@+id/tvCosplayGender"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textColor="@color/colorHitam"
@@ -158,12 +158,12 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_weight="2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:text="@string/country"
@@ -171,13 +171,13 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:layout_weight="1"
                     android:id="@+id/tvCosplayCountry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textColor="@color/colorHitam"
@@ -199,12 +199,12 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_weight="2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:text="@string/birthday"
@@ -212,13 +212,13 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:layout_weight="1"
                     android:id="@+id/tvCosplayBirthday"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textColor="@color/colorHitam"
